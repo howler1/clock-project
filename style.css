@@ -1,0 +1,45 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(243, 177, 78);
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 20px auto;
+  font-family: 'Shadows Into Light', cursive;
+  text-transform: uppercase;
+}
+
+h1 {
+  color: green;
+  text-align: center;
+  margin-top: 20vh;
+  border-style: solid;
+  border-color: black;
+  border-radius: 10px;
+  padding: 20px;
+  font-weight: bold;
+  
+}
+
+div{
+  margin: 50px;
+  text-align: center;
+  border-color: black;
+  border-style: solid;
+  border-radius: 10px;
+  padding: 20px;
+  font-weight: bold;
+  min-width: 60%;
+}
+
+#clock{
+  font-weight: bolder;
+  font-size: 50px;
+}
