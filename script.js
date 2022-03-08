@@ -35,8 +35,8 @@ showCurrentTime();
 
 updateBackground = () => {
   //first i need to call the hours of the day again
-  const hours = new Date();
-  let h = hours.getHours();
+  // const hours = new Date();
+  // let h = hours.getHours();
 
   //assign hourly values to the time of day variables
   const morn = 5
@@ -46,7 +46,7 @@ updateBackground = () => {
   const night = 21
 
   //test
-  // const h = 
+  const h = 6
 
   //there must be a tidier way of doing this??=====
   if(h >= morn && h < noon)
