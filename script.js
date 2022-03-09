@@ -97,7 +97,7 @@ updateBackground();
 
 //Weather API call=========================================================================================
 const keyAPI = '662def84cf649e0eaff5e3ee916cdee7';
-let loc = 'bristol'
+let loc = 'braintree'
 
 let weatherAPI = `http://api.openweathermap.org/data/2.5/weather?q=${loc}&appid=${keyAPI}`
 
@@ -108,7 +108,7 @@ fetch(weatherAPI)
   console.log(data)
   const mainWeather = data.weather[0].main;
   const weatherIcon = data.weather[0].icon;
-  document.getElementById('weather').innerHTML = weatherIcon;
+  document.getElementById('weather').innerHTML = `The weather is ${mainWeather}. There will be a picture here too`;
   console.log(mainWeather);
 });
 
